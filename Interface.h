@@ -26,12 +26,9 @@ string interface_function_2() {
     while (a != "1" || a != "2" || a != "3") {
         cin >> a;
 
-        if (a == "1")
-            return "1";
-        if (a == "2")
-            return "2";
-        if (a == "3")
-            return "3";
+        for (int i = 0; i < 3; i++)
+            if (a == to_string(i))
+                return a;
 
         cout << "Incorrect answer! Please, put 1, 2 or 3" << endl;
     }
@@ -45,18 +42,9 @@ string interface_function_3() {
     while (a != "1" || a != "2" || a != "3" || a != "4" || a != "5" || a != "6") {
         cin >> a;
 
-        if (a == "1")
-            return "1";
-        if (a == "2")
-            return "2";
-        if (a == "3")
-            return "3";
-        if (a == "4")
-            return "4";
-        if (a == "5")
-            return "5";
-        if (a == "6")
-            return "6";
+        for (int i = 0; i < 6; i++)
+            if (a == to_string(i))
+                return a;
 
         cout << "Incorrect answer! Please, put 1, 2, 3, 4, 5 or 6" << endl;
     }
@@ -70,16 +58,9 @@ string interface_function_4() {
     while (a != "1" || a != "2" || a != "3" || a != "4" || a != "5") {
         cin >> a;
 
-        if (a == "1")
-            return "1";
-        if (a == "2")
-            return "2";
-        if (a == "3")
-            return "3";
-        if (a == "4")
-            return "4";
-        if (a == "5")
-            return "5";
+        for (int i = 0; i < 5; i++)
+            if (a == to_string(i))
+                return a;
 
         cout << "Incorrect answer! Please, put 1, 2, 3, 4 or 5" << endl;
     }
