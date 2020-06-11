@@ -23,7 +23,7 @@ string interface_function_1() {
 string interface_function_2() {
     string a;
     cout << "Working with: (1)binary tree, (2)heap or (3)exit from program" << endl;
-    while (a != "1" || a != "2" || a != "3") {
+    while (a != "3") {
         cin >> a;
 
         for (int i = 0; i < 3; i++)
@@ -39,7 +39,7 @@ string interface_function_3() {
     string a;
     cout << "What do you want to do with binary tree: (1)insert element, (2)find a specific element, (3)delete element, "
             "(4)see tree, (5)make forward pass or (6)exit from program" << endl;
-    while (a != "1" || a != "2" || a != "3" || a != "4" || a != "5" || a != "6") {
+    while (a != "6") {
         cin >> a;
 
         for (int i = 0; i < 6; i++)
@@ -55,7 +55,7 @@ string interface_function_4() {
     string a;
     cout << "What do you want to do with heap: (1)insert element, (2)delete element, (3)find a specific element, "
             "(4)see heap or (5)exit from program" << endl;
-    while (a != "1" || a != "2" || a != "3" || a != "4" || a != "5") {
+    while (a != "5") {
         cin >> a;
 
         for (int i = 0; i < 5; i++)
